@@ -48,6 +48,7 @@ const Navbar = () => {
     { path: '/', name: 'Home' },
     { path: '/consultation', name: 'Consult a Doctor' },
     { path: '/medicines', name: 'Order Medicines' },
+    { path: '/about', name: 'About Us' },
     ...(isLoggedIn ? [{ path: '/dashboard', name: 'Dashboard' }] : []),
   ];
 
